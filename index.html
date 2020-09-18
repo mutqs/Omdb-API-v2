@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<body>
+    <div class="container">
+        <h2 class="my-3 ">OMdB Project</h2>
+        <div class="form-group">
+        <form id="formMovie"> 
+            <input class="form-control" type="text" id="movieName" placeholder="Write a movie.." style="border-radius: 3px;" >
+            <input class="form-control" type="number" id="movieYear" placeholder="Write a year.." style="border-radius: 3px; margin-top: 5px;" >
+         </form>
+        </div>
+        <button onclick="GetData()" class="btn btn-danger btn-block"> Search </button>
+        <button onclick="ClearLocal()" class="btn btn-dark btn-block"> Clear Local Storage and UI </button>
+    </div>
+
+    <div  class="mt-5 " id="filmBody" >
+       
+    </div>
+   <script src="./main.js"></script>
+ 
+</body>
+
+</html>
